@@ -1,0 +1,18 @@
+{
+    "functions": [
+        {
+            "name": "refundAll",
+            "inputs": ""
+        },
+        {
+            "name": "",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x0000000000000000e00ffffa1f000000250300f0",
+            "balance": "78918677933325851598557413376"
+        }
+    ]
+}

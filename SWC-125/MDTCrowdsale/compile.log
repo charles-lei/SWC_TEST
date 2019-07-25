@@ -1,0 +1,36 @@
+contracts/603910159558770688/603910159558770688.sol:410:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Crowdsale(uint256 _startBlock, uint256 _endBlock, uint256 _rate, address _wallet) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603910159558770688/603910159558770688.sol:482:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function CappedCrowdsale(uint256 _cap) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603910159558770688/603910159558770688.sol:527:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function MDTCrowdsale()
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603910159558770688/603910159558770688.sol:449:9: Warning: Invoking events without "emit" prefix is deprecated.
+        TokenPurchase(msg.sender, beneficiary, weiAmount, tokens);
+        ^-------------------------------------------------------^
+contracts/603910159558770688/603910159558770688.sol:531:24: Warning: This looks like an address but has an invalid checksum. If this is not used as an address, please prepend '00'. Correct checksummed address: '0x0D5BDa9Db5Dd36278c6A40683960bA58CAc0149b'. For more information please see https://solidity.readthedocs.io/en/develop/types.html#address-literals
+        addToWhitelist(0x0d5bda9db5dd36278c6a40683960ba58cac0149b);
+                       ^----------------------------------------^
+contracts/603910159558770688/603910159558770688.sol:532:24: Warning: This looks like an address but has an invalid checksum. If this is not used as an address, please prepend '00'. Correct checksummed address: '0x1B6dDC637C24305b354D7c337F9126F68AaD4886'. For more information please see https://solidity.readthedocs.io/en/develop/types.html#address-literals
+        addToWhitelist(0x1b6ddc637c24305b354d7c337f9126f68aad4886);
+                       ^----------------------------------------^
+contracts/603910159558770688/603910159558770688.sol:410:5: Warning: No visibility specified. Defaulting to "public". 
+    function Crowdsale(uint256 _startBlock, uint256 _endBlock, uint256 _rate, address _wallet) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603910159558770688/603910159558770688.sol:431:5: Warning: No visibility specified. Defaulting to "public". 
+    function () payable {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603910159558770688/603910159558770688.sol:436:5: Warning: No visibility specified. Defaulting to "public". 
+    function buyTokens(address beneficiary) payable {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603910159558770688/603910159558770688.sol:482:5: Warning: No visibility specified. Defaulting to "public". 
+    function CappedCrowdsale(uint256 _cap) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603910159558770688/603910159558770688.sol:512:5: Warning: No visibility specified. Defaulting to "public". 
+    function addToWhitelist(address addr) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603910159558770688/603910159558770688.sol:527:5: Warning: No visibility specified. Defaulting to "public". 
+    function MDTCrowdsale()
+    ^ (Relevant source part starts here and spans across multiple lines).

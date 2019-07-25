@@ -1,0 +1,120 @@
+INIT, 0
+===
+INIT, 0
+bitflip 1/1, 0
+===
+INIT, 0
+bitflip 1/1, 0
+===
+INIT, 0
+bitflip 1/1, 0
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+havoc, 3
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+havoc, 3
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+havoc, 3
+===
+INIT, 0
+bitflip 1/1, 0
+havoc, 1
+bitflip 1/1, 2
+havoc, 3
+===

@@ -1,0 +1,27 @@
+{
+    "functions": [
+        {
+            "name": "settle",
+            "inputs": ""
+        },
+        {
+            "name": "lockInGuess",
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "value": "0x2300f5ff483748b76b12c072d3dd27f819e0a6fea997800040050000ff008aff"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x01007efff600000840ffff901aa2dd3ff2cc4202",
+            "balance": "2000000000000000000"
+        }
+    ]
+}

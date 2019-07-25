@@ -1,0 +1,17 @@
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: MAIN
+Function name: withdraw()
+PC address: 319
+Estimated Gas Usage: 1509 - 2450
+Anyone can withdraw ETH from the contract account.
+Arbitrary senders other than the contract creator can withdraw ETH from the contract account without previously having sent an equivalent amount of ETH to it. This is likely to be a vulnerability.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: unknown, txdata: 0xa8b00865, value: 0x0
+Caller: [ATTACKER], function: withdraw(), txdata: 0x3ccfd60b, value: 0x0
+
+

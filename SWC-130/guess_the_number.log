@@ -1,0 +1,16 @@
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: MAIN
+Function name: guess(uint256)
+PC address: 511
+Estimated Gas Usage: 1189 - 1470
+Anyone can withdraw ETH from the contract account.
+Arbitrary senders other than the contract creator can withdraw ETH from the contract account without previously having sent an equivalent amount of ETH to it. This is likely to be a vulnerability.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: guess(uint256), txdata: 0x9189fec10000000000000000000001000000000000000000000000000000000000000000, value: 0xde0b6b3a7640000
+
+

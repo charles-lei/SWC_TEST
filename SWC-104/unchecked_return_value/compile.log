@@ -1,0 +1,3 @@
+contracts/603973620372340736/603973620372340736.sol:10:5: Warning: Return value of low-level calls not used.
+    callee.call();
+    ^-----------^

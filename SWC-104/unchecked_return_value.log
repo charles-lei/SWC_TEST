@@ -1,0 +1,46 @@
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Medium
+Contract: MAIN
+Function name: _function_0x7536185e
+PC address: 255
+Estimated Gas Usage: 230 - 511
+A call to a user-supplied address is executed.
+The callee address of an external message call can be set by the caller. Note that the callee can contain arbitrary code and may re-enter any function in this contract. Review the business logic carefully to prevent averse effects on the contract state.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: unknown, txdata: 0x7536185ebebebebebebebebebebebebedeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Medium
+Contract: MAIN
+Function name: _function_0xbf9bd6cb
+PC address: 312
+Estimated Gas Usage: 252 - 533
+A call to a user-supplied address is executed.
+The callee address of an external message call can be set by the caller. Note that the callee can contain arbitrary code and may re-enter any function in this contract. Review the business logic carefully to prevent averse effects on the contract state.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: unknown, txdata: 0xbf9bd6cbbebebebebebebebebebebebedeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+
+==== Unchecked Call Return Value ====
+SWC ID: 104
+Severity: Low
+Contract: MAIN
+Function name: _function_0xbf9bd6cb
+PC address: 312
+Estimated Gas Usage: 972 - 35253
+The return value of a message call is not checked.
+External calls return a boolean value. If the callee contract halts with an exception, 'false' is returned and execution continues in the caller. It is usually recommended to wrap external calls into a require statement to prevent unexpected states.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0xbf9bd6cb, value: 0x0
+
+

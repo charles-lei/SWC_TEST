@@ -1,0 +1,61 @@
+==== Integer Overflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: _function_0x05155154
+PC address: 148
+Estimated Gas Usage: 1151 - 5435
+The binary addition can overflow.
+The operands of the addition operation are not sufficiently constrained. The addition could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: unknown, txdata: 0x05155154fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc, value: 0x0
+
+==== Integer Overflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: _function_0x05155154
+PC address: 154
+Estimated Gas Usage: 1329 - 5892
+The binary addition can overflow.
+The operands of the addition operation are not sufficiently constrained. The addition could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x05155154ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdcffffffffffffffffffffffffffffffffffffffffffffffffffffffff02, value: 0x0
+
+==== Integer Overflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: ecrecoverFromSig(bytes32,bytes)
+PC address: 786
+Estimated Gas Usage: 645 - 3701
+The binary addition can overflow.
+The operands of the addition operation are not sufficiently constrained. The addition could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: ecrecoverFromSig(bytes32,bytes), txdata: 0xd4acaf6c00010101010101010101010101010101010101010101010101010101010101ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, value: 0x0
+
+==== Integer Overflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: ecrecoverFromSig(bytes32,bytes)
+PC address: 792
+Estimated Gas Usage: 809 - 4144
+The binary addition can overflow.
+The operands of the addition operation are not sufficiently constrained. The addition could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: ecrecoverFromSig(bytes32,bytes), txdata: 0xd4acaf6c0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc, value: 0x0
+
+

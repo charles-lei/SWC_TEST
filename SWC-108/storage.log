@@ -1,0 +1,16 @@
+==== Potential denial-of-service if block gas limit is reached ====
+SWC ID: 128
+Severity: Low
+Contract: MAIN
+Function name: _function_0xa02649f1
+PC address: 1475
+Estimated Gas Usage: 28054 - 131921
+Potential denial-of-service if block gas limit is reached.
+A storage modification is executed in a loop. Be aware that the transaction may fail to execute if the loop is unbounded and the necessary gas exceeds the block gas limit.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0xa02649f1, value: 0x0
+
+

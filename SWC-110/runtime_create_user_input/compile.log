@@ -1,0 +1,12 @@
+contracts/603940264603549696/603940264603549696.sol:9:5: Warning: No visibility specified. Defaulting to "public". 
+    function check(uint x){
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603940264603549696/603940264603549696.sol:19:5: Warning: No visibility specified. Defaulting to "public". 
+    constructor(uint x){
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603940264603549696/603940264603549696.sol:23:5: Warning: No visibility specified. Defaulting to "public". 
+    function foo() returns(uint){
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603940264603549696/603940264603549696.sol:23:5: Warning: Function state mutability can be restricted to view
+    function foo() returns(uint){
+    ^ (Relevant source part starts here and spans across multiple lines).

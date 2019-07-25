@@ -1,0 +1,18 @@
+{
+    "functions": [
+        {
+            "name": "_sendWinnings",
+            "inputs": ""
+        },
+        {
+            "name": "withdrawWinnings",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x0000ffffff800000000000000000d200000000f0",
+            "balance": "78918677504442992524819169280"
+        }
+    ]
+}

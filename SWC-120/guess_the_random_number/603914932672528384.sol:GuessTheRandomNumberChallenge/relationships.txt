@@ -1,0 +1,76 @@
+INIT, 0
+===
+INIT, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===
+INIT, 0
+heuristic, 0
+===

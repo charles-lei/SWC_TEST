@@ -1,0 +1,3 @@
+contracts/603938373203132416/603938373203132416.sol:7:5: Warning: Function state mutability can be restricted to view
+    function getArrayElement(uint256 idx) public returns (uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).

@@ -1,0 +1,14 @@
+{
+    "functions": [
+        {
+            "name": "testStorage",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x00007ffdc801ffe598ffed000b090000420000f0",
+            "balance": "78918677506806819950465909088"
+        }
+    ]
+}

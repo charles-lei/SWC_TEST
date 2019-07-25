@@ -1,0 +1,46 @@
+contracts/603918362275217408/603918362275217408.sol:7:40: Warning: This declaration shadows an existing declaration.
+    function test1() constant returns (uint n) {
+                                       ^----^
+contracts/603918362275217408/603918362275217408.sol:4:5: The shadowed declaration is here:
+    uint n = 2;
+    ^--------^
+
+contracts/603918362275217408/603918362275217408.sol:11:40: Warning: This declaration shadows an existing declaration.
+    function test2() constant returns (uint n) {
+                                       ^----^
+contracts/603918362275217408/603918362275217408.sol:4:5: The shadowed declaration is here:
+    uint n = 2;
+    ^--------^
+
+contracts/603918362275217408/603918362275217408.sol:16:40: Warning: This declaration shadows an existing declaration.
+    function test3() constant returns (uint x) {
+                                       ^----^
+contracts/603918362275217408/603918362275217408.sol:5:5: The shadowed declaration is here:
+    uint x = 3;
+    ^--------^
+
+contracts/603918362275217408/603918362275217408.sol:17:9: Warning: This declaration shadows an existing declaration.
+        uint n = 4;
+        ^----^
+contracts/603918362275217408/603918362275217408.sol:4:5: The shadowed declaration is here:
+    uint n = 2;
+    ^--------^
+
+contracts/603918362275217408/603918362275217408.sol:7:5: Warning: No visibility specified. Defaulting to "public". 
+    function test1() constant returns (uint n) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603918362275217408/603918362275217408.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function test2() constant returns (uint n) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603918362275217408/603918362275217408.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function test3() constant returns (uint x) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603918362275217408/603918362275217408.sol:7:5: Warning: Function state mutability can be restricted to pure
+    function test1() constant returns (uint n) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603918362275217408/603918362275217408.sol:11:5: Warning: Function state mutability can be restricted to pure
+    function test2() constant returns (uint n) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603918362275217408/603918362275217408.sol:16:5: Warning: Function state mutability can be restricted to pure
+    function test3() constant returns (uint x) {
+    ^ (Relevant source part starts here and spans across multiple lines).

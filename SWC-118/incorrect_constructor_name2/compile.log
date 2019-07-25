@@ -1,0 +1,6 @@
+contracts/603919418325467136/603919418325467136.sol:29:23: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+       owner.transfer(this.balance);
+                      ^----------^
+contracts/603919418325467136/603919418325467136.sol:23:5: Warning: No visibility specified. Defaulting to "public". 
+    function () payable {} 
+    ^--------------------^

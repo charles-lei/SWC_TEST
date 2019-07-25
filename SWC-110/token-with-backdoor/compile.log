@@ -1,0 +1,6 @@
+contracts/603942775896932352/603942775896932352.sol:27:4: Warning: No visibility specified. Defaulting to "public". 
+   function test_invariants() {
+   ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603942775896932352/603942775896932352.sol:27:4: Warning: Function state mutability can be restricted to view
+   function test_invariants() {
+   ^ (Relevant source part starts here and spans across multiple lines).

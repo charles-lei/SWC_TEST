@@ -1,0 +1,12 @@
+contracts/603952472414748672/603952472414748672.sol:39:9: Warning: Variable is declared as a storage pointer. Use an explicit "storage" keyword to silence this warning.
+        Game game;
+        ^-------^
+contracts/603952472414748672/603952472414748672.sol:33:30: Warning: "sha3" has been deprecated in favour of "keccak256"
+        secretNumber = uint8(sha3(now, block.blockhash(block.number-1))) % 20 + 1;
+                             ^----------------------------------------^
+contracts/603952472414748672/603952472414748672.sol:39:9: Warning: Uninitialized storage pointer. Did you mean '<type> memory game'?
+        Game game;
+        ^-------^
+contracts/603952472414748672/603952472414748672.sol:55:13: Warning: "suicide" has been deprecated in favour of "selfdestruct"
+            suicide(msg.sender);
+            ^-----------------^

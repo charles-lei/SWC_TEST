@@ -1,0 +1,23 @@
+{
+    "functions": [
+        {
+            "name": "guess",
+            "inputs": [
+                {
+                    "type": "uint8",
+                    "value": "0x40deffff0efa0014ffec477f5ffaea00ffff0c00803ebaeb24b00000fe4f006a"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x04ffdaea4ba400102f00ea000000010000000000",
+            "balance": "2000000000000000000"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+==== Use of callcode ====
+SWC ID: 111
+Severity: Medium
+Contract: MAIN
+Function name: _function_0x2553e8a0
+PC address: 221
+Estimated Gas Usage: 661 - 1979
+Use of callcode is deprecated.
+The callcode method executes code of another contract in the context of the caller account. Due to a bug in the implementation it does not persist sender and value over the call. It was therefore deprecated and may be removed in the future. Use the delegatecall method instead.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: unknown, txdata: 0x2553e8a0, value: 0x0
+
+==== Unprotected Selfdestruct ====
+SWC ID: 106
+Severity: High
+Contract: MAIN
+Function name: _function_0x2553e8a0
+PC address: 355
+Estimated Gas Usage: 1556 - 37725
+The contract can be killed by anyone.
+Arbitrary senders can kill this contract.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: unknown, txdata: 0x2553e8a0, value: 0x0
+
+

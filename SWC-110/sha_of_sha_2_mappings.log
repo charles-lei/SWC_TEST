@@ -1,0 +1,15 @@
+==== Potential denial-of-service if block gas limit is reached ====
+SWC ID: 128
+Severity: Low
+Contract: MAIN
+Function name: constructor
+PC address: 181
+Estimated Gas Usage: 942 - 3625
+Potential denial-of-service if block gas limit is reached.
+A storage modification is executed in a loop. Be aware that the transaction may fail to execute if the loop is unbounded and the necessary gas exceeds the block gas limit.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+
+

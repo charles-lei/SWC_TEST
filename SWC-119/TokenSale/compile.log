@@ -1,0 +1,12 @@
+contracts/603918569968762880/603918569968762880.sol:6:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Tokensale() {}
+    ^---------------------^
+contracts/603918569968762880/603918569968762880.sol:16:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Presale() Tokensale() {}
+    ^-------------------------------^
+contracts/603918569968762880/603918569968762880.sol:6:5: Warning: No visibility specified. Defaulting to "public". 
+    function Tokensale() {}
+    ^---------------------^
+contracts/603918569968762880/603918569968762880.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function Presale() Tokensale() {}
+    ^-------------------------------^

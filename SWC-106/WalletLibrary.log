@@ -1,0 +1,30 @@
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: fallback
+PC address: 6
+Estimated Gas Usage: 19 - 114
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: unknown, txdata: 0x, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: constructor
+PC address: 10
+Estimated Gas Usage: 36 - 131
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x1
+
+

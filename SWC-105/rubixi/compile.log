@@ -1,0 +1,75 @@
+contracts/603969025453588480/603969025453588480.sol:20:9: Warning: No visibility specified. Defaulting to "public".
+        function DynamicPyramid() {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:36:9: Warning: No visibility specified. Defaulting to "public".
+        function() {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:79:9: Warning: No visibility specified. Defaulting to "public".
+        function collectAllFees() onlyowner {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:80:41: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                if (collectedFees == 0) throw;
+                                        ^---^
+contracts/603969025453588480/603969025453588480.sol:86:9: Warning: No visibility specified. Defaulting to "public".
+        function collectFeesInEther(uint _amt) onlyowner {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:90:41: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                if (collectedFees == 0) throw;
+                                        ^---^
+contracts/603969025453588480/603969025453588480.sol:96:9: Warning: No visibility specified. Defaulting to "public".
+        function collectPercentOfFees(uint _pcent) onlyowner {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:97:57: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                if (collectedFees == 0 || _pcent > 100) throw;
+                                                        ^---^
+contracts/603969025453588480/603969025453588480.sol:105:9: Warning: No visibility specified. Defaulting to "public".
+        function changeOwner(address _owner) onlyowner {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:109:9: Warning: No visibility specified. Defaulting to "public".
+        function changeMultiplier(uint _mult) onlyowner {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:110:49: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                if (_mult > 300 || _mult < 120) throw;
+                                                ^---^
+contracts/603969025453588480/603969025453588480.sol:115:9: Warning: No visibility specified. Defaulting to "public".
+        function changeFeePercentage(uint _fee) onlyowner {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:116:32: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                if (_fee > 10) throw;
+                               ^---^
+contracts/603969025453588480/603969025453588480.sol:122:9: Warning: No visibility specified. Defaulting to "public".
+        function currentMultiplier() constant returns(uint multiplier, string info) {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:127:9: Warning: No visibility specified. Defaulting to "public".
+        function currentFeePercentage() constant returns(uint fee, string info) {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:132:9: Warning: No visibility specified. Defaulting to "public".
+        function currentPyramidBalanceApproximately() constant returns(uint pyramidBalance, string info) {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:137:9: Warning: No visibility specified. Defaulting to "public".
+        function nextPayoutWhenPyramidBalanceTotalsApproximately() constant returns(uint balancePayout) {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:141:9: Warning: No visibility specified. Defaulting to "public".
+        function feesSeperateFromBalanceApproximately() constant returns(uint fees) {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:145:9: Warning: No visibility specified. Defaulting to "public".
+        function totalParticipants() constant returns(uint count) {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:149:9: Warning: No visibility specified. Defaulting to "public".
+        function numberOfParticipantsWaitingForPayout() constant returns(uint count) {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:153:9: Warning: No visibility specified. Defaulting to "public".
+        function participantDetails(uint orderInPyramid) constant returns(address Address, uint Payout) {
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603969025453588480/603969025453588480.sol:71:25: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                        participants[payoutOrder].etherAddress.send(payoutToSend);
+                        ^-------------------------------------------------------^
+contracts/603969025453588480/603969025453588480.sol:82:17: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                creator.send(collectedFees);
+                ^-------------------------^
+contracts/603969025453588480/603969025453588480.sol:92:17: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                creator.send(_amt);
+                ^----------------^
+contracts/603969025453588480/603969025453588480.sol:100:17: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                creator.send(feesToCollect);
+                ^-------------------------^

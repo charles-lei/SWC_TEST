@@ -1,0 +1,18 @@
+{
+    "functions": [
+        {
+            "name": "withdraw",
+            "inputs": ""
+        },
+        {
+            "name": "missing",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x0000000000000000000000000000000000000001",
+            "balance": "78918677504442992524819169280"
+        }
+    ]
+}

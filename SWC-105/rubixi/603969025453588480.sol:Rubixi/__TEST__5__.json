@@ -1,0 +1,63 @@
+{
+    "functions": [
+        {
+            "name": "collectPercentOfFees",
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ]
+        },
+        {
+            "name": "DynamicPyramid",
+            "inputs": ""
+        },
+        {
+            "name": "collectAllFees",
+            "inputs": ""
+        },
+        {
+            "name": "changeOwner",
+            "inputs": [
+                {
+                    "type": "address",
+                    "value": "0x00000000000000000000000000000000000000000000000000000000000000f0"
+                }
+            ]
+        },
+        {
+            "name": "collectFeesInEther",
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ]
+        },
+        {
+            "name": "changeMultiplier",
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ]
+        },
+        {
+            "name": "changeFeePercentage",
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                }
+            ]
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x00000000000000000000000000000000000000f0",
+            "balance": "78918677504442992524819169280"
+        }
+    ]
+}

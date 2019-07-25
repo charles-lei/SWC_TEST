@@ -1,0 +1,124 @@
+INIT, 0
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===
+INIT, 0
+heuristic, 0
+bitflip 2/1, 1
+heuristic, 2
+===

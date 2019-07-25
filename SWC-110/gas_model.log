@@ -1,0 +1,16 @@
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: check()
+PC address: 116
+Estimated Gas Usage: 5587 - 25682
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [SOMEGUY], function: check(), txdata: 0x919840ad, value: 0x0
+
+

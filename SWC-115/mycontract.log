@@ -1,0 +1,32 @@
+==== Use of tx.origin ====
+SWC ID: 111
+Severity: Medium
+Contract: MAIN
+Function name: sendTo(address,uint256)
+PC address: 204
+Estimated Gas Usage: 658 - 1083
+Use of tx.origin is deprecated.
+The smart contract retrieves the transaction origin (tx.origin) using msg.origin. Use of msg.origin is deprecated and the instruction may be removed in the  future. Use msg.sender instead.
+See also: https://solidity.readthedocs.io/en/develop/security-considerations.html#tx-origin
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [SOMEGUY], function: sendTo(address,uint256), txdata: 0x9e1a00aa, value: 0x0
+
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: MAIN
+Function name: sendTo(address,uint256)
+PC address: 286
+Estimated Gas Usage: 757 - 1368
+Anyone can withdraw ETH from the contract account.
+Arbitrary senders other than the contract creator can withdraw ETH from the contract account without previously having sent an equivalent amount of ETH to it. This is likely to be a vulnerability.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: sendTo(address,uint256), txdata: 0x9e1a00aa000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef01, value: 0x0
+
+

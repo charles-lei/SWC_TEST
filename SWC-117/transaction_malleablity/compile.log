@@ -1,0 +1,9 @@
+contracts/603920939104600064/603920939104600064.sol:56:16: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        return keccak256(address(this), bytes4(0x1296830d), _to, _value, _gasPrice, _nonce);
+               ^--------------------------------------------------------------------------^
+contracts/603920939104600064/603920939104600064.sol:64:16: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        return keccak256("\x19Ethereum Signed Message:\n32", _hash);
+               ^--------------------------------------------------^
+contracts/603920939104600064/603920939104600064.sol:7:3: Warning: No visibility specified. Defaulting to "public". 
+  constructor(address[] owners, uint[] init){
+  ^ (Relevant source part starts here and spans across multiple lines).

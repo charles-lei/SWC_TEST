@@ -1,0 +1,16 @@
+==== Unchecked Call Return Value ====
+SWC ID: 104
+Severity: Low
+Contract: MAIN
+Function name: _function_0x2a31f6b4
+PC address: 251
+Estimated Gas Usage: 1119 - 37704
+The return value of a message call is not checked.
+External calls return a boolean value. If the callee contract halts with an exception, 'false' is returned and execution continues in the caller. It is usually recommended to wrap external calls into a require statement to prevent unexpected states.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x2a31f6b4, value: 0x0
+
+

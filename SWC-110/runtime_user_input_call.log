@@ -1,0 +1,31 @@
+==== External Call To User-Supplied Address ====
+SWC ID: 107
+Severity: Medium
+Contract: MAIN
+Function name: check(address)
+PC address: 243
+Estimated Gas Usage: 991 - 1555
+A call to a user-supplied address is executed.
+The callee address of an external message call can be set by the caller. Note that the callee can contain arbitrary code and may re-enter any function in this contract. Review the business logic carefully to prevent averse effects on the contract state.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: check(address), txdata: 0xc23697a8bebebebebebebebebebebebedeadbeefdeadbeefdeadbeefdeadbeefdeadbeef, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: check(address)
+PC address: 272
+Estimated Gas Usage: 1756 - 36506
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: check(address), txdata: 0xc23697a8, value: 0x0
+
+

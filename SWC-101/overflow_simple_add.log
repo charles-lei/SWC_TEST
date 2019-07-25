@@ -1,0 +1,16 @@
+==== Integer Overflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: add(uint256)
+PC address: 168
+Estimated Gas Usage: 5624 - 25719
+The binary addition can overflow.
+The operands of the addition operation are not sufficiently constrained. The addition could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: add(uint256), txdata: 0x1003e2d2ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, value: 0x0
+
+

@@ -1,0 +1,18 @@
+{
+    "functions": [
+        {
+            "name": "withdraw",
+            "inputs": ""
+        },
+        {
+            "name": "Constructor",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x0000000000000000000000000000000000000001",
+            "balance": "77680737465185759747591110656"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+contracts/603940470808117248/603940470808117248.sol:9:5: Warning: No visibility specified. Defaulting to "public".
+    function check(address b){
+    ^
+Spanning multiple lines.
+contracts/603940470808117248/603940470808117248.sol:16:5: Warning: No visibility specified. Defaulting to "public".
+    function foo() returns(uint);
+    ^---------------------------^

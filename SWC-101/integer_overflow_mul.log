@@ -1,0 +1,16 @@
+==== Integer Overflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: run(uint256)
+PC address: 162
+Estimated Gas Usage: 5621 - 25716
+The binary multiplication can overflow.
+The operands of the multiplication operation are not sufficiently constrained. The multiplication could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: run(uint256), txdata: 0xa444f5e980, value: 0x0
+
+

@@ -1,0 +1,8 @@
+contracts/603924166017548288/603924166017548288.sol:16:5: Warning: No visibility specified. Defaulting to "public".
+    function run() {
+    ^
+Spanning multiple lines.
+contracts/603924166017548288/603924166017548288.sol:16:5: Warning: Function state mutability can be restricted to view
+    function run() {
+    ^
+Spanning multiple lines.

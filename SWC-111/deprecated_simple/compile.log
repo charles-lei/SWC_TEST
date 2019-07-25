@@ -1,0 +1,66 @@
+contracts/603923431641055232/603923431641055232.sol:14:13: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+            throw;
+            ^---^
+contracts/603923431641055232/603923431641055232.sol:19:9: Warning: Use of the "var" keyword is deprecated.
+        var a = [1,2,3];
+        ^---^
+contracts/603923431641055232/603923431641055232.sol:21:14: Warning: Use of the "var" keyword is deprecated.
+        var (x, y, z) = (false, "test", 0);
+             ^
+contracts/603923431641055232/603923431641055232.sol:21:17: Warning: Use of the "var" keyword is deprecated.
+        var (x, y, z) = (false, "test", 0);
+                ^
+contracts/603923431641055232/603923431641055232.sol:21:20: Warning: Use of the "var" keyword is deprecated.
+        var (x, y, z) = (false, "test", 0);
+                   ^
+contracts/603923431641055232/603923431641055232.sol:8:9: Warning: This declaration shadows a builtin symbol.
+        bytes32 blockhash = block.blockhash(0);
+        ^---------------^
+contracts/603923431641055232/603923431641055232.sol:9:30: Warning: "sha3" has been deprecated in favour of "keccak256"
+        bytes32 hashofhash = sha3(blockhash);
+                             ^-------------^
+contracts/603923431641055232/603923431641055232.sol:9:30: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 hashofhash = sha3(blockhash);
+                             ^-------------^
+contracts/603923431641055232/603923431641055232.sol:9:30: Warning: The provided argument of type bytes32 is not implicitly convertible to expected type bytes memory.
+        bytes32 hashofhash = sha3(blockhash);
+                             ^-------------^
+contracts/603923431641055232/603923431641055232.sol:17:9: Warning: Return value of low-level calls not used.
+        address(this).callcode();
+        ^----------------------^
+contracts/603923431641055232/603923431641055232.sol:21:9: Warning: The type of this variable was inferred as uint8, which can hold values between 0 and 255. This is probably not desired. Use an explicit type to silence this warning.
+        var (x, y, z) = (false, "test", 0);
+        ^--------------------------------^
+contracts/603923431641055232/603923431641055232.sol:23:9: Warning: "suicide" has been deprecated in favour of "selfdestruct"
+        suicide(address(0));
+        ^-----------------^
+contracts/603923431641055232/603923431641055232.sol:8:29: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 blockhash = block.blockhash(0);
+                            ^-------------^
+contracts/603923431641055232/603923431641055232.sol:11:20: Warning: "msg.gas" has been deprecated in favor of "gasleft()"
+        uint gas = msg.gas;
+                   ^-----^
+contracts/603923431641055232/603923431641055232.sol:17:9: Warning: "callcode" has been deprecated in favour of "delegatecall".
+        address(this).callcode();
+        ^--------------------^
+contracts/603923431641055232/603923431641055232.sol:9:9: Warning: Unused local variable.
+        bytes32 hashofhash = sha3(blockhash);
+        ^----------------^
+contracts/603923431641055232/603923431641055232.sol:19:9: Warning: Unused local variable.
+        var a = [1,2,3];
+        ^---^
+contracts/603923431641055232/603923431641055232.sol:21:14: Warning: Unused local variable.
+        var (x, y, z) = (false, "test", 0);
+             ^
+contracts/603923431641055232/603923431641055232.sol:21:17: Warning: Unused local variable.
+        var (x, y, z) = (false, "test", 0);
+                ^
+contracts/603923431641055232/603923431641055232.sol:21:20: Warning: Unused local variable.
+        var (x, y, z) = (false, "test", 0);
+                   ^
+contracts/603923431641055232/603923431641055232.sol:17:9: Warning: Function declared as view, but this expression (potentially) modifies the state and thus requires non-payable (the default) or payable.
+        address(this).callcode();
+        ^----------------------^
+contracts/603923431641055232/603923431641055232.sol:23:9: Warning: Function declared as view, but this expression (potentially) modifies the state and thus requires non-payable (the default) or payable.
+        suicide(address(0));
+        ^-----------------^

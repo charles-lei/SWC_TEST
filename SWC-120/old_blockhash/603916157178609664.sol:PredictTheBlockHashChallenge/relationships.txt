@@ -1,0 +1,127 @@
+INIT, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===
+INIT, 0
+heuristic, 0
+havoc, 0
+havoc, 0
+===

@@ -1,0 +1,48 @@
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: gamesPlayed(uint256)
+PC address: 454
+Estimated Gas Usage: 587 - 682
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [SOMEGUY], function: play(uint256), txdata: 0x6898f82b, value: 0x16345785d8a0000
+Caller: [ATTACKER], function: gamesPlayed(uint256), txdata: 0x382cf0a680, value: 0x0
+
+==== Integer Overflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: kill()
+PC address: 619
+Estimated Gas Usage: 1059 - 1484
+The binary addition can overflow.
+The operands of the addition operation are not sufficiently constrained. The addition could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: play(uint256), txdata: 0x6898f82b, value: 0x16345785d8a0000
+Caller: [CREATOR], function: kill(), txdata: 0x41c0e1b5, value: 0x0
+
+==== Dependence on predictable environment variable ====
+SWC ID: 116
+Severity: Low
+Contract: MAIN
+Function name: kill()
+PC address: 627
+Estimated Gas Usage: 1059 - 1484
+A control flow decision is made based on a predictable variable.
+The block.timestamp environment variable is used in to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don't use any of those environment variables for random number generation or to make critical control flow decisions.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: kill(), txdata: 0x41c0e1b5, value: 0x0
+
+

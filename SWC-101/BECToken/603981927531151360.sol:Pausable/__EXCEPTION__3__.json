@@ -1,0 +1,31 @@
+{
+    "functions": [
+        {
+            "name": "unpause",
+            "inputs": ""
+        },
+        {
+            "name": "pause",
+            "inputs": ""
+        },
+        {
+            "name": "transferOwnership",
+            "inputs": [
+                {
+                    "type": "address",
+                    "value": "0x0000000000000000002000000000000000000000000000000000007fffffff00"
+                }
+            ]
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x00000001c50300000000000000000000000000f0",
+            "balance": "78918677504442992524819169280"
+        },
+        {
+            "address": "0x0000000000000000000000000000007fffffff00",
+            "balance": "2097152"
+        }
+    ]
+}

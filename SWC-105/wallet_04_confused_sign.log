@@ -1,0 +1,47 @@
+==== Unprotected Ether Withdrawal ====
+SWC ID: 105
+Severity: High
+Contract: MAIN
+Function name: withdraw(uint256)
+PC address: 340
+Estimated Gas Usage: 768 - 1239
+Anyone can withdraw ETH from the contract account.
+Arbitrary senders other than the contract creator can withdraw ETH from the contract account without previously having sent an equivalent amount of ETH to it. This is likely to be a vulnerability.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: withdraw(uint256), txdata: 0x2e1a7d4d01, value: 0x0
+
+==== Integer Underflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: withdraw(uint256)
+PC address: 433
+Estimated Gas Usage: 7037 - 61698
+The binary subtraction can underflow.
+The operands of the subtraction operation are not sufficiently constrained. The subtraction could therefore result in an integer underflow. Prevent the underflow by checking inputs or ensure sure that the underflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: withdraw(uint256), txdata: 0x2e1a7d4d01, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: deposit()
+PC address: 769
+Estimated Gas Usage: 1155 - 1630
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: withdraw(uint256), txdata: 0x2e1a7d4d, value: 0x0
+Caller: [SOMEGUY], function: deposit(), txdata: 0xd0e30db0, value: 0x0
+
+

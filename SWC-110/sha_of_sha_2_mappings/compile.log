@@ -1,0 +1,9 @@
+contracts/603941459074220032/603941459074220032.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    constructor(){
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603941459074220032/603941459074220032.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function check(address a){
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/603941459074220032/603941459074220032.sol:15:5: Warning: Function state mutability can be restricted to view
+    function check(address a){
+    ^ (Relevant source part starts here and spans across multiple lines).

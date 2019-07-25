@@ -1,0 +1,4 @@
+usage: myth [-h] [-v LOG_LEVEL]
+            {analyze,a,disassemble,d,read-storage,leveldb-search,function-to-hash,hash-to-address,version,truffle,help}
+            ...
+myth: error: argument command: invalid choice: 'anzlyze' (choose from 'analyze', 'a', 'disassemble', 'd', 'read-storage', 'leveldb-search', 'function-to-hash', 'hash-to-address', 'version', 'truffle', 'help')

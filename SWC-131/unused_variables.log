@@ -1,0 +1,31 @@
+==== Integer Overflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: _function_0x2e591df5
+PC address: 374
+Estimated Gas Usage: 698 - 1074
+The binary addition can overflow.
+The operands of the addition operation are not sufficiently constrained. The addition could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: unknown, txdata: 0x2e591df5ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, value: 0x0
+
+==== Integer Underflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: _function_0xfb900172
+PC address: 437
+Estimated Gas Usage: 390 - 861
+The binary subtraction can underflow.
+The operands of the subtraction operation are not sufficiently constrained. The subtraction could therefore result in an integer underflow. Prevent the underflow by checking inputs or ensure sure that the underflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: unknown, txdata: 0xfb90017201, value: 0x0
+
+

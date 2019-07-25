@@ -1,0 +1,3 @@
+contracts/603972275955302400/603972275955302400.sol:32:21: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        to.transfer(this.balance);
+                    ^----------^

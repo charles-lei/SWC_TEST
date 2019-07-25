@@ -1,0 +1,16 @@
+==== Unprotected Selfdestruct ====
+SWC ID: 106
+Severity: High
+Contract: MAIN
+Function name: _function_0xa56a3b5a
+PC address: 112
+Estimated Gas Usage: 132 - 227
+The contract can be killed by anyone.
+Anyone can kill this contract and withdraw its balance to an arbitrary address.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: unknown, txdata: 0xa56a3b5a, value: 0x0
+
+

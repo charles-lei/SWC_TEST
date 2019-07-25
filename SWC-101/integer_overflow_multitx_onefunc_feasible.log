@@ -1,0 +1,17 @@
+==== Integer Underflow ====
+SWC ID: 101
+Severity: High
+Contract: MAIN
+Function name: run(uint256)
+PC address: 196
+Estimated Gas Usage: 6073 - 26168
+The binary subtraction can underflow.
+The operands of the subtraction operation are not sufficiently constrained. The subtraction could therefore result in an integer underflow. Prevent the underflow by checking inputs or ensure sure that the underflow is caught by an assertion.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: run(uint256), txdata: 0xa444f5e9, value: 0x0
+Caller: [CREATOR], function: run(uint256), txdata: 0xa444f5e901, value: 0x0
+
+

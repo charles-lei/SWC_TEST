@@ -1,0 +1,14 @@
+{
+    "functions": [
+        {
+            "name": "run",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x00007ffdc801ffe41cffed0060600000420000f0",
+            "balance": "78918677512663751265861238784"
+        }
+    ]
+}

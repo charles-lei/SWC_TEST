@@ -1,0 +1,26 @@
+{
+    "functions": [
+        {
+            "name": "consume",
+            "inputs": ""
+        },
+        {
+            "name": "backdoor",
+            "inputs": ""
+        },
+        {
+            "name": "airdrop",
+            "inputs": ""
+        },
+        {
+            "name": "test_invariants",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x00000000000000000000000000000000000000f0",
+            "balance": "78918677504442992524819169280"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "functions": [
+        {
+            "name": "withdrawAllAnyone",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x00000000000000000000000000000000000000df",
+            "balance": "78918677504442992524819169280"
+        }
+    ]
+}

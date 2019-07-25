@@ -1,0 +1,4 @@
+contracts/603924054717497344/603924054717497344.sol:9:5: Warning: Function state mutability can be restricted to pure
+    function run() public {
+    ^
+Spanning multiple lines.

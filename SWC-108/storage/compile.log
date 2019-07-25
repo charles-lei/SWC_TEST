@@ -1,0 +1,6 @@
+contracts/603952646646136832/603952646646136832.sol:26:28: Warning: This looks like an address but has an invalid checksum. If this is not used as an address, please prepend '00'. Correct checksummed address: '0xbCcc714d56bc0da0fd33d96d2a87b680dD6D0DF6'. For more information please see https://solidity.readthedocs.io/en/develop/types.html#address-literals
+        address address1 = 0xbccc714d56bc0da0fd33d96d2a87b680dd6d0df6;
+                           ^----------------------------------------^
+contracts/603952646646136832/603952646646136832.sol:27:28: Warning: This looks like an address but has an invalid checksum. If this is not used as an address, please prepend '00'. Correct checksummed address: '0xaee905FdD3ED851e48d22059575b9F4245A82B04'. For more information please see https://solidity.readthedocs.io/en/develop/types.html#address-literals
+        address address2 = 0xaee905fdd3ed851e48d22059575b9f4245a82b04;
+                           ^----------------------------------------^

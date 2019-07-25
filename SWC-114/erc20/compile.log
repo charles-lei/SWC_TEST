@@ -1,0 +1,3 @@
+contracts/603921655110041600/603921655110041600.sol:80:3: Warning: No visibility specified. Defaulting to "public". 
+  constructor(uint totalSupply){
+  ^ (Relevant source part starts here and spans across multiple lines).

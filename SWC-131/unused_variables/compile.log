@@ -1,0 +1,9 @@
+contracts/603906603938217984/603906603938217984.sol:10:31: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function unusedArg(int x, int y) public view returns (int z) {
+                              ^---^
+contracts/603906603938217984/603906603938217984.sol:15:69: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function unusedReturn(int x, int y) public pure returns (int m, int n) {
+                                                                    ^---^
+contracts/603906603938217984/603906603938217984.sol:24:13: Warning: Unused local variable.
+            int x = test - z;
+            ^---^

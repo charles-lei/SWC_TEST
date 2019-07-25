@@ -1,0 +1,33 @@
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: nextPayoutWhenPyramidBalanceTotalsApproximately()
+PC address: 1653
+Estimated Gas Usage: 1025 - 1120
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: unknown, txdata: 0x01010101, value: 0x0
+Caller: [CREATOR], function: nextPayoutWhenPyramidBalanceTotalsApproximately(), txdata: 0x57d4021b, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: participantDetails(uint256)
+PC address: 2085
+Estimated Gas Usage: 1205 - 1300
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [SOMEGUY], function: unknown, txdata: 0x01010101, value: 0x0
+Caller: [CREATOR], function: participantDetails(uint256), txdata: 0x9dbc4f9b, value: 0x0
+
+

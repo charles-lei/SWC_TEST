@@ -1,0 +1,6 @@
+contracts/603922222964277248/603922222964277248.sol:16:30: Warning: This looks like an address but has an invalid checksum. If this is not used as an address, please prepend '00'. Correct checksummed address: '0x79B483371E87d664cd39491b5f06250165e4b185'. For more information please see https://solidity.readthedocs.io/en/develop/types.html#address-literals
+        refundAddresses.push(0x79B483371E87d664cd39491b5F06250165e4b185);
+                             ^----------------------------------------^
+contracts/603922222964277248/603922222964277248.sol:14:5: Warning: No visibility specified. Defaulting to "public". 
+    constructor() {
+    ^ (Relevant source part starts here and spans across multiple lines).

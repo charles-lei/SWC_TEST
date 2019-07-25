@@ -1,0 +1,18 @@
+{
+    "functions": [
+        {
+            "name": "breakIt",
+            "inputs": ""
+        },
+        {
+            "name": "",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x15ffe9ffffffffdffffffa0000faffffffffffff",
+            "balance": "308276379149698291065684957"
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+contracts/603908429601308672/603908429601308672.sol:9:18: Warning: Use of unary + is deprecated.
+        onlyOne =+ 1;
+                 ^-^

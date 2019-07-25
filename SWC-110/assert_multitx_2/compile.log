@@ -1,0 +1,15 @@
+contracts/603925444860837888/603925444860837888.sol:15:5: Warning: No visibility specified. Defaulting to "public".
+    function run() {
+    ^
+Spanning multiple lines.
+contracts/603925444860837888/603925444860837888.sol:19:5: Warning: No visibility specified. Defaulting to "public".
+    function set(uint256 _param) {
+    ^
+Spanning multiple lines.
+contracts/603925444860837888/603925444860837888.sol:11:29: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function AssertMultiTx2(uint256 _param) public {
+                            ^------------^
+contracts/603925444860837888/603925444860837888.sol:15:5: Warning: Function state mutability can be restricted to view
+    function run() {
+    ^
+Spanning multiple lines.

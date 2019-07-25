@@ -1,0 +1,16 @@
+==== Multiple Calls in a Single Transaction ====
+SWC ID: 113
+Severity: Low
+Contract: MAIN
+Function name: refundAll()
+PC address: 431
+Estimated Gas Usage: 7767 - 78314
+Multiple calls are executed in the same transaction.
+This call is executed after a previous call in the same transaction. Try to isolate each call, transfer or send into its own transaction.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: refundAll(), txdata: 0x38e771ab, value: 0x0
+
+

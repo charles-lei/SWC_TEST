@@ -1,0 +1,23 @@
+{
+    "functions": [
+        {
+            "name": "run",
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "value": "0x000283ed000010ddff00000000d6ffff1cf5ff0020eb00100000005bfabe0000"
+                }
+            ]
+        },
+        {
+            "name": "init",
+            "inputs": ""
+        }
+    ],
+    "accounts": [
+        {
+            "address": "0x0000ffe90000001000000800eaffffffe50000f0",
+            "balance": "30982350905083716489370795866"
+        }
+    ]
+}

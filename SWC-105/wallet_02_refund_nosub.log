@@ -1,0 +1,17 @@
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: deposit()
+PC address: 939
+Estimated Gas Usage: 1177 - 1652
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [CREATOR], function: withdraw(uint256), txdata: 0x2e1a7d4d, value: 0x0
+Caller: [SOMEGUY], function: deposit(), txdata: 0xd0e30db0, value: 0x0
+
+

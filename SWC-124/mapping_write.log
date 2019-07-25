@@ -1,0 +1,33 @@
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: set(uint256,uint256)
+PC address: 381
+Estimated Gas Usage: 6721 - 26911
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [SOMEGUY], function: set(uint256,uint256), txdata: 0x1ab06ee5, value: 0x0
+Caller: [CREATOR], function: set(uint256,uint256), txdata: 0x1ab06ee5ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: MAIN
+Function name: get(uint256)
+PC address: 640
+Estimated Gas Usage: 683 - 778
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+Transaction Sequence:
+
+Caller: [CREATOR], data: [CONTRACT CREATION], value: 0x0
+Caller: [ATTACKER], function: set(uint256,uint256), txdata: 0x1ab06ee5, value: 0x0
+Caller: [CREATOR], function: get(uint256), txdata: 0x9507d39a40, value: 0x0
+
+

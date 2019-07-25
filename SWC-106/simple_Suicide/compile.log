@@ -1,0 +1,3 @@
+contracts/603954924639748096/603954924639748096.sol:4:3: Warning: No visibility specified. Defaulting to "public". 
+  function sudicideAnyone() {
+  ^ (Relevant source part starts here and spans across multiple lines).
