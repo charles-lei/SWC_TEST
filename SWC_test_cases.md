@@ -1,0 +1,36 @@
+# SWC LIST
+
+|SWC-X|Test Case|issue|sfuzz|分析方法|
+|:---:|:----|:----|:------|:------|
+|[SWC-132](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-132)|[Lockdrop.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-132#lockdropsol)|判断某个合约地址余额是否是特定值|timestamp|?|
+|[SWC-131](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-131)|[unused_state_variables.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-131#unused-state-variablessol)|变量未被使用|unsupported|编译器warning|
+|[SWC-130](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-130)|[guess_the_number.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-130#guess-the-numbersol)|u202e字符问题|unsupported|静态分析?|
+|[SWC-129](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-129)|[typo_one_command.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-129#typo-one-commandsol)|打字错误（+=误写成=+)|unsupported|静态分析|
+|[SWC-128](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-128)|[dos_address.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-128#dos-addresssol)|超出区块gaslimit|unsupported|动态分析?|
+|[SWC-127](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-127)|[FunctionTypes.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-127#functiontypessol)|函数类型变量问题|unsupported|?|
+|[SWC-125](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-125)|[MDTCrowdsale.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-125#mdtcrowdsalesol)|不正确的继承顺序|unspport|?|
+|[SWC-124](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-124)|[arbitrary_location_write_simple.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-124#arbitrary-location-write-simplesol)|可写变量到随机的地址|overflow/underflow|?|
+|[SWC-123](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-123)|[requirement_simple.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-123#requirement-simplesol)|合约内部调用require条件不满足|unsupported|?|
+|[SWC-122](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-122)|[xxxx](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-122)|Lack of Proper Signature Verification|unsupported|?|
+|[SWC-121](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-121)|[xxxx](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-121)|Missing Protection against Signature Replay Attacks|unsupported|?|
+|[SWC-120](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-120)|[guess_the_random_number.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-120#guess-the-random-numbersol)|区块变量依赖|blockvariable|动态分析|
+|[SWC-119](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-119)|[ShadowingInFunctions.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-119#shadowinginfunctionssol)|变量覆盖|unsupported|编译器警告|
+|[SWC-118](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-118)|[incorrect_constructor_name1.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-118#incorrect-constructor-name1sol)|构造函数名称不正确|unsupported|静态分析?|
+|[SWC-117](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-117)|[transaction_malleablity.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-117#transaction-malleablitysol)|Signature Malleability|unsupported|?|
+|[SWC-116](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-116)|[timed_crowdsale.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-116#timed-crowdsalesol)|时间戳依赖|timestamp|动态分析|1
+|[SWC-115](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-115)|[mycontract.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-115#mycontractsol)|tx.origin依赖|unsupported|动态分析?|
+|[SWC-114](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-114)|[ERC20.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-114#erc20sol)|交易顺序依赖|unsupported|?|
+|[SWC-113](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-113)|[send_loop.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-113#send-loopsol)|DoS with Failed Call|gasless|?|
+|[SWC-112](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-112)|[proxy.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-113#send-loopsol)|Delegatecall to Untrusted Callee|freezing ether/danger delegated call|动态分析|
+|[SWC-111](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-111)|[deprecated-simple.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-111#deprecated-simplesol)|使用废弃的内置函数|unsupported|编译器警告|
+|[SWC-110](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-110)|[assert_constructor.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-110#assert-constructorsol)|assert异常|?|?|
+|[SWC-109](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-109)|[crypto_roulette.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-109#crypto-roulettesol)|变量指针未初始化|unsupported|静态分析?|
+|[SWC-108](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-108)|[storage.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-108#storagesol)|状态变量使用默认可见性|unsupported|静态分析?|
+|[SWC-107](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-107)|[modifier_reentrancy.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-107#modifier-reentrancysol)|重入|reentrancy|动态分析|
+|[SWC-106](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-106)|[simple_suicide.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-106#simple-suicidesol)|不受保护的SELFDESTRUCT指令|unsupported|?|
+|[SWC-105](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105)|[tokensalechallenge.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-105#tokensalechallengesol)|不受保护的取回以太币|?|?|
+|[SWC-104](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-104)|[unchecked_return_value.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-104#unchecked-return-valuesol)|未检查call返回值|unsupported|?|
+|[SWC-103](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-103)|[floating_pragma.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-103#floating-pragmasol)|使用不固定的合约编译器版本|unsupported|静态检查|
+|[SWC-102](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-102)|[version_0_4_13.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-102#version-0-4-13sol)|使用旧的编译器版本|unsupported|静态检查|
+|[SWC-101](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101)|[tokensalechallenge.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101#tokensalechallengesol)|溢出问题|underflow/overflow|动态分析|
+|[SWC-100](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-100)|[visibility_not_set.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-100#visibility-not-setsol)|函数默认可见性|unsupporteded|静态分析|
