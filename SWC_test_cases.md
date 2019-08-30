@@ -33,4 +33,5 @@
 |[SWC-103](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-103)|[floating_pragma.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-103#floating-pragmasol)|使用不固定的合约编译器版本|unsupported|clippy|
 |[SWC-102](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-102)|[version_0_4_13.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-102#version-0-4-13sol)|使用旧的编译器版本|unsupported|clippy|
 |[SWC-101](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101)|[tokensalechallenge.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101#tokensalechallengesol)|溢出问题|underflow/overflow|动态分析|
+fsdf
 |[SWC-100](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-100)|[visibility_not_set.sol](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-100#visibility-not-setsol)|函数默认可见性|unsupporteded|clippy|
